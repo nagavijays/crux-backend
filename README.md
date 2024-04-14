@@ -5,6 +5,7 @@ This is a Backend for Chrome UX project developed using Express.js.
 ## Google chrome UX: 
 
 - Create a BigQuery project in Google cloud and enable the BigQuery API.
+- Create a project with the billing setup. The project ID is noted down.
 - Create a service account and download the API key json file in local machine. 
 - Set the path in the terminal.  ```export GOOGLE_APPLICATION_CREDENTIALS="/path/apikey.json"```
 
