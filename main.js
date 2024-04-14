@@ -43,8 +43,6 @@ async function runQuery(originUrl, yyyymm) {
       location: 'US', 
   });
 
-  console.log('Query Results:');
-  rows.forEach(row => console.log(row));
   return rows;
 }
 
