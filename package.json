@@ -1,0 +1,28 @@
+{
+  "name": "crux-backend",
+  "version": "1.0.0",
+  "description": "Express js backend for Chrome CRUX",
+  "main": "main.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "keywords": [
+    "crux",
+    "expressjs"
+  ],
+  "author": "vj",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/bigquery": "^7.5.2",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
